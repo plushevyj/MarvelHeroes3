@@ -1,11 +1,11 @@
-package com.odhiambopaul.movies.network
+package com.example.marvelheroes3.api
 
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 
-object ServiceBuilder {
+object Service {
     private const val BASE_URL = "https://www.simplifiedcoding.net/"
 
     private val client = OkHttpClient
