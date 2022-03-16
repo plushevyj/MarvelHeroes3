@@ -9,7 +9,6 @@ import com.example.marvelheroes3.api.Service
 import com.example.marvelheroes3.databinding.ActivityMainBinding
 import com.example.marvelheroes3.model.Hero
 import com.example.marvelheroes3.views.HeroAdapter
-import com.squareup.picasso.Picasso
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
@@ -50,14 +49,4 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
-//    private fun init() {
-//        binding.apply {
-//            heroesView.layoutManager = GridLayoutManager(this@MainActivity, 1)
-//            heroesView.adapter = adapter
-//            for (i in 0 until heroesUrlImages.size) {
-//                adapter.addHero(Hero(image, names[i]))
-//            }
-//        }
-//    }
 }
